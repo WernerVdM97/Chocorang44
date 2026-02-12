@@ -35,7 +35,6 @@ RC(2,0)      RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(6,0) RC(5,0) RC(5,1) RC(
 
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
         diode-direction = "col2row";
 
         col-gpios
@@ -61,17 +60,16 @@ RC(2,0)      RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(6,0) RC(5,0) RC(5,1) RC(
 
     middle_encoder: encoder_middle {
         compatible = "alps,ec11";
-        label = "MIDDLE_ENCODER";
         a-gpios = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <2>;
+        steps = <80>;
         status = "enabled";
     };
 
     sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&middle_encoder>;
-        triggers-per-rotation = <15>;
+        triggers-per-rotation = <20>;
     };
 
     vbatt: vbatt {
@@ -79,6 +77,7 @@ RC(2,0)      RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(6,0) RC(5,0) RC(5,1) RC(
         label = "VBATT";
     };
 };
+
 
 
 
