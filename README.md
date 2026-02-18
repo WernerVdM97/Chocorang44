@@ -4,5 +4,5 @@ Chocorang is a fork Chocotako44 (Choctopus44) and features a case redesign and u
 
 Optimised for ultra low profile form factor including magnetic case cover and larger battery.
 
-
+![](src/v1-body.jpg)
 
