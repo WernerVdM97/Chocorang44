@@ -11,14 +11,8 @@ Optimised for ultra low profile form factor including magnetic case cover and la
 ### ZMK
 
 - [x] Basic layer functionality based on KLORista
-- [ ] delete
 - [ ] LOL layer
 - [ ] Wasd (on dscf) layer
-- [ ] Mute and Cancle keys
-- [ ] Double tap repeats key
-- [ ] CAPS LED
-- [ ] POWER LED
-- [ ] Layer LED ??
 
 ### Case
 - [ ] Bottom case
@@ -27,3 +21,8 @@ Optimised for ultra low profile form factor including magnetic case cover and la
 - [ ] Battery mounts
 - [ ] Magnet gaps
 - [ ] Top lid
+
+### Dongle
+- [ ] CAPS LED
+- [ ] POWER LED 
+- [ ] Layer LED
