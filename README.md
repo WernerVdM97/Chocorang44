@@ -11,6 +11,7 @@ Optimised for ultra low profile form factor including magnetic case cover and la
 ### ZMK
 
 - [x] Basic layer functionality based on KLORista
+- [ ] Fixed Github action for UF2
 - [ ] LOL layer
 - [ ] WASD (on DSCF) layer
 
