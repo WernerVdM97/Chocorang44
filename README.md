@@ -12,15 +12,16 @@ Optimised for ultra low profile form factor including magnetic case cover and la
 
 - [x] Basic layer functionality based on KLORista
 - [ ] LOL layer
-- [ ] Wasd (on dscf) layer
+- [ ] WASD (on DSCF) layer
 
 ### Case
-- [ ] Bottom case
-- [x] Rubber feet inslits
-- [ ] Reset hole
-- [ ] Battery mounts
-- [ ] Magnet gaps
+- [x] Bottom case
+  - [x] Rubber feet inslits
+  - [x] Reset hole
+  - [x] Battery mounts
+  - [ ] Magnet gaps
 - [ ] Top lid
+  - [ ] Magnet gaps
 
 ### Dongle
 - [ ] CAPS LED
