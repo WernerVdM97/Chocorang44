@@ -1,11 +1,9 @@
 # Redesigned Case
 
-![case](chocorang-bottom.png)
+![case](../src/Chocorang44-case-bottom-drawing.png)
 
-Features dual 550 mAh LiON batteries with connectors and wiring chutes
-
-Reset hole
-
-Magnetic top case
-
-Rubbet feet slits
+Features 
+ - Dual 550 mAh LiON battery connectors, wiring chutes, and snap lid
+ - Reset hole
+ - Magnetic top case
+ - Rubbet feet slits
