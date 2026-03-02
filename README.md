@@ -6,6 +6,8 @@ Optimised for ultra low profile form factor including magnetic case cover and la
 
 ![](src/v1-body.jpg)
 
+![](src/Chocorang44-render.png)
+
 ## Todo
 
 ### ZMK
@@ -20,6 +22,7 @@ Optimised for ultra low profile form factor including magnetic case cover and la
   - [x] Rubber feet inslits
   - [x] Reset hole
   - [x] Battery mounts
+  - [x] Battery snap lid
   - [ ] Magnet gaps
 - [ ] Top lid
   - [ ] Magnet gaps
