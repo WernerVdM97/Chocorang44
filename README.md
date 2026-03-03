@@ -6,7 +6,7 @@ Optimised for ultra low profile form factor including magnetic case cover and la
 
 ![](src/v1-body.jpg)
 
-![](src/Chocorang44-render.png)
+![](src/Chocorang44-render.PNG)
 
 ## Todo
 
