@@ -6,14 +6,12 @@ Optimised for ultra low profile form factor including magnetic case cover and la
 
 ![](src/v1-body.jpg)
 
-![](src/Chocorang44-render.PNG)
-
 ## Todo
 
 ### ZMK
 
 - [x] Basic layer functionality based on KLORista
-- [ ] Fixed Github action for UF2
+- [x] Forked ZMK for pinned version
 - [ ] LOL layer
 - [ ] WASD (on DSCF) layer
 
@@ -23,11 +21,11 @@ Optimised for ultra low profile form factor including magnetic case cover and la
   - [x] Reset hole
   - [x] Battery mounts
   - [x] Battery snap lid
+  - [x] Chip Shield
   - [ ] Magnet gaps
 - [ ] Top lid
   - [ ] Magnet gaps
 
-### Dongle
+### Dongle/Interface ?
 - [ ] CAPS LED
 - [ ] POWER LED 
-- [ ] Layer LED
