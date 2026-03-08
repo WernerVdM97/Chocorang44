@@ -8,6 +8,10 @@ Optimised for low profile form factor and portability including magnetic case co
 
 ![](src/v1-body.jpg)
 
+See [Case](https://github.com/WernerVdM97/Chocorang44/tree/master/case)
+
+View [Keymap](https://github.com/WernerVdM97/Chocorang44/blob/master/config/boards/shields/choctopus44/choctopus44.keymap)
+
 ## Todo
 
 ### ZMK
@@ -24,9 +28,9 @@ Optimised for low profile form factor and portability including magnetic case co
   - [x] Battery mounts
   - [x] Battery snap lid
   - [x] Chip Shield
-  - [ ] Magnet gaps
-- [ ] Top lid
-  - [ ] Magnet gaps
+  - [x] Magnet gaps
+- [x] Top lid
+  - [x] Magnet gaps
 
 ### Dongle/Interface ?
 - [ ] CAPS LED
