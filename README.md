@@ -1,5 +1,7 @@
 # Chocorang44
 
+![](src/Chocorang44-render.PNG)
+
 Chocorang44 is a Chocotako44 fork (which is a Choctopus44 mod) that features a case redesign and updated ZMK config.
 
 Optimised for low profile form factor and portability including magnetic case cover (coming soon) and larger parallel batteries.
