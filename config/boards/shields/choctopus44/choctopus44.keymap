@@ -105,8 +105,8 @@
       bindings = <
           &kp C_MUTE &kp N1    &kp N2    &kp N3    &kp N4    &kp G               &trans    &trans    &trans    &trans    &trans    &to 8
           &kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T               &trans    &trans    &trans    &trans    &trans    &trans
-          &kp LALT   &kp A     &kp S     &kp D     &kp F     &kp B    &to 0      &trans    &trans    &trans    &trans    &trans    &trans
-                                         &kp ESC   &kp LALT  &kp SPACE &mo 5     &trans    &trans    &trans    &trans
+          &kp LALT   &kp A     &kp S     &kp D     &kp F     &kp B    &none      &trans    &trans    &trans    &trans    &trans    &to 0
+                               &kp ESC   &kp LALT  &kp SPACE &mo 7               &trans    &trans    &trans    &to 0
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
@@ -116,8 +116,8 @@
       bindings = <
           &kp C_MUTE      &kp F1       &kp F2       &kp F3    &kp F4    &kp F5          &trans    &trans    &trans    &trans    &trans    &to 8
           &kp LA(TAB)     &kp LC(Q)    &kp LC(W)    &kp LC(E) &kp LC(R) &kp Y           &trans    &trans    &trans    &trans    &trans    &trans
-          &kp LA(F4)      &none        &none        &kp C     &kp V     &kp P    &none  &trans    &trans    &trans    &trans    &trans    &trans
-                                                    &none     &none     &none    &trans &trans    &trans    &trans    &trans
+          &kp LA(F4)      &none        &none        &kp C     &kp V     &kp P    &none  &trans    &trans    &trans    &trans    &trans    &to 0
+                                       &none        &none     &none     &trans          &trans    &trans    &trans    &to 0
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
@@ -128,7 +128,7 @@
         &kp C_MUTE  &kp TAB    &kp Q     &kp X         &kp E         &kp R                         &trans       &trans       &trans         &trans   &trans    &to 0
         &kp GRAVE   &kp LSHFT  &kp A     &kp W         &kp D         &kp F                         &trans       &trans       &trans         &trans   &trans    &trans
         &kp LALT    &kp LCTRL  &kp Z     &kp S         &kp C         &kp V         &none           &trans       &trans       &trans         &trans   &trans    &to 6
-                                         &none         &kp LGUI      &kp SPACE     &kp ESC         &trans       &trans       &trans         &to 0
+                               &none     &kp LGUI      &kp SPACE     &kp ESC                       &trans       &trans       &trans         &to 0
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
