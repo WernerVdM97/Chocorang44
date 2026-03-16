@@ -27,11 +27,11 @@ View [Keymap](https://github.com/WernerVdM97/Chocorang44/blob/master/config/boar
   - [x] Reset hole
   - [x] Battery mounts
   - [x] Battery snap lid
-  - [x] Chip Shield
+  - [x] nRF Shield
   - [x] Magnet gaps
 - [x] Top lid
   - [x] Magnet gaps
 
 ### Dongle/Interface ?
 - [ ] CAPS LED
-- [ ] POWER LED 
+- [x] POWER LED 
