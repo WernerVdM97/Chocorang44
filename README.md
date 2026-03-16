@@ -18,8 +18,8 @@ View [Keymap](https://github.com/WernerVdM97/Chocorang44/blob/master/config/boar
 
 - [x] Basic layer functionality based on KLORista
 - [x] Forked ZMK for pinned version
-- [ ] LOL layer
-- [ ] WASD (on DSCF) layer
+- [x] LOL layer
+- [x] WASD (on DSCF) layer
 
 ### Case
 - [x] Bottom case
@@ -33,5 +33,7 @@ View [Keymap](https://github.com/WernerVdM97/Chocorang44/blob/master/config/boar
   - [x] Magnet gaps
 
 ### Dongle/Interface ?
-- [ ] CAPS LED
-- [x] POWER LED 
+- [x] CAPS LED
+- [x] Power LED 
+- [x] Bluetooth LED
+- [x] Layer LED 
