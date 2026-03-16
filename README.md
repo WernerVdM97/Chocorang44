@@ -34,4 +34,6 @@ View [Keymap](https://github.com/WernerVdM97/Chocorang44/blob/master/config/boar
 
 ### Dongle/Interface ?
 - [x] CAPS LED
-- [x] POWER LED 
+- [x] Power LED 
+- [x] Bluetooth LED
+- [x] Layer LED 
