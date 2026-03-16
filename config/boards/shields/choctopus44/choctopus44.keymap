@@ -93,20 +93,20 @@
     caps_layer {
       bindings = <
         &kp C_MUTE  &kp LS(Q)  &kp LS(W)     &kp LS(E)        &kp LS(R)        &kp LS(T)                &kp LS(Y)    &kp LS(U)        &kp LS(I)        &kp LS(O)    &kp LS(P)     &none
-        &kp GRAVE   &kp LS(A)  &kp LS(S)     &mt LSHIFT LS(D) &mt LCTRL LS(F)  &kp LS(G)                &kp LS(H)    &mt RCTRL LS(J)  &mt RSHIFT LS(K) &kp LS(L)    &kp SEMI      &kp SQT
+        &kp GRAVE   &kp LS(A)  &kp LS(S)     &kp LS(D)        &kp LS(F)        &kp LS(G)                &kp LS(H)    &kp LS(J)        &kp LS(K)        &kp LS(L)    &kp SEMI      &kp SQT
         &kp LALT    &kp LS(Z)  &kp LS(X)     &kp LS(C)        &kp LS(V)        &kp LS(B)       &none    &kp LS(N)    &kp LS(M)        &kp COMMA        &kp DOT      &kp FSLH      &none
                                &to 0         &to 0            &lt 4 SPACE      &lt 2 TAB                &lt 3 ENTER  &lt 1 SPACE      &mt LALT BSPC    &to 0
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
 
-    // LAYER 6 LOL1 (Gaming Base)
+// LAYER 6 LOL1 (Gaming Base)
     lol1_layer {
       bindings = <
-          &kp C_MUTE &kp N1    &kp N2    &kp N3    &kp N4    &kp G          &kp N5    &kp N4    &kp N3    &kp N2    &kp N1    &to 8
-          &kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T          &kp T     &kp R     &kp E     &kp W     &kp Q     &kp LSHFT
-          &kp LALT   &kp A     &kp S     &kp D     &kp F     &kp B   &to 0  &kp P     &kp F     &kp D     &kp S     &kp A     &to 0
-                               &kp ESC   &kp LALT  &kp SPACE &mo 5          &mo 5     &kp SPACE &kp LALT  &none
+          &kp C_MUTE &kp N1    &kp N2    &kp N3    &kp N4    &kp G               &trans    &trans    &trans    &trans    &trans    &to 8
+          &kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T               &trans    &trans    &trans    &trans    &trans    &trans
+          &kp LALT   &kp A     &kp S     &kp D     &kp F     &kp B    &to 0      &trans    &trans    &trans    &trans    &trans    &trans
+                                         &kp ESC   &kp LALT  &kp SPACE &mo 5     &trans    &trans    &trans    &trans
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
@@ -114,10 +114,10 @@
     // LAYER 7 LOL2 (Gaming Utilities)
     lol2_layer {
       bindings = <
-          &kp C_MUTE      &kp F1       &kp F2       &kp F3    &kp F4    &kp F5         &kp F5    &kp F4    &kp F6    &kp F2    &kp F1    &to 8
-          &la(TAB)        &lc(Q)       &lc(W)       &lc(E)    &lc(R)    &kp Y          &lc(R)    &lc(E)    &lc(W)    &lc(Q)    &kp TAB   &none
-          &la(F4)         &none        &none        &kp C     &kp V     &kp P   &none  &kp B     &kp V     &kp C     &none     &none     &to 0
-                                       &none        &none     &none     &trans         &trans    &none     &none     &none
+          &kp C_MUTE      &kp F1       &kp F2       &kp F3    &kp F4    &kp F5          &trans    &trans    &trans    &trans    &trans    &to 8
+          &kp LA(TAB)     &kp LC(Q)    &kp LC(W)    &kp LC(E) &kp LC(R) &kp Y           &trans    &trans    &trans    &trans    &trans    &trans
+          &kp LA(F4)      &none        &none        &kp C     &kp V     &kp P    &none  &trans    &trans    &trans    &trans    &trans    &trans
+                                                    &none     &none     &none    &trans &trans    &trans    &trans    &trans
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
@@ -125,10 +125,10 @@
     // LAYER 8 DSCF Gaming Layer
     dscf_gaming_layer {
       bindings = <
-        &kp C_MUTE  &kp TAB    &kp Q     &kp X         &kp E         &kp R                         &kp Y        &kp U        &kp I          &kp O    &kp P     &to 0
-        &kp GRAVE   &kp LSHFT  &kp A     &kp W         &kp D         &kp F                         &kp H        &mt RCTRL J  &mt RSHIFT K   &kp L    &kp SEMI  &kp SQT
-        &kp LALT    &kp LCTRL  &kp Z     &kp S         &kp C         &kp V         &none           &kp N        &kp M        &kp COMMA      &kp DOT  &kp FSLH  &to 6
-                               &none     &kp LGUI      &kp SPACE   &kp ESC                         &lt 1 ENTER  &lt 3 SPACE  &mt LALT BSPC  &to 0
+        &kp C_MUTE  &kp TAB    &kp Q     &kp X         &kp E         &kp R                         &trans       &trans       &trans         &trans   &trans    &to 0
+        &kp GRAVE   &kp LSHFT  &kp A     &kp W         &kp D         &kp F                         &trans       &trans       &trans         &trans   &trans    &trans
+        &kp LALT    &kp LCTRL  &kp Z     &kp S         &kp C         &kp V         &none           &trans       &trans       &trans         &trans   &trans    &to 6
+                                         &none         &kp LGUI      &kp SPACE     &kp ESC         &trans       &trans       &trans         &to 0
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
