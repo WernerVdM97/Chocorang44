@@ -18,8 +18,8 @@ View [Keymap](https://github.com/WernerVdM97/Chocorang44/blob/master/config/boar
 
 - [x] Basic layer functionality based on KLORista
 - [x] Forked ZMK for pinned version
-- [ ] LOL layer
-- [ ] WASD (on DSCF) layer
+- [x] LOL layer
+- [x] WASD (on DSCF) layer
 
 ### Case
 - [x] Bottom case
@@ -27,11 +27,11 @@ View [Keymap](https://github.com/WernerVdM97/Chocorang44/blob/master/config/boar
   - [x] Reset hole
   - [x] Battery mounts
   - [x] Battery snap lid
-  - [x] Chip Shield
+  - [x] nRF Shield
   - [x] Magnet gaps
 - [x] Top lid
   - [x] Magnet gaps
 
 ### Dongle/Interface ?
-- [ ] CAPS LED
-- [ ] POWER LED 
+- [x] CAPS LED
+- [x] POWER LED 
