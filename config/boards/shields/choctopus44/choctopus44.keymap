@@ -122,13 +122,13 @@
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
 
-    // LAYER 8 DSCF Gaming Layer
+    // LAYER 8 DSCF (WASD) Gaming Layer
     dscf_gaming_layer {
       bindings = <
-        &kp C_MUTE  &kp TAB    &kp Q     &kp X         &kp E         &kp R                         &trans       &trans       &trans         &trans   &trans    &to 0
-        &kp GRAVE   &kp LSHFT  &kp A     &kp W         &kp D         &kp F                         &trans       &trans       &trans         &trans   &trans    &trans
-        &kp LALT    &kp LCTRL  &kp Z     &kp S         &kp C         &kp V         &none           &trans       &trans       &trans         &trans   &trans    &to 6
-                               &none     &kp LGUI      &kp SPACE     &kp ESC                       &trans       &trans       &trans         &to 0
+        &kp C_MUTE  &kp TAB    &kp Q     &kp W         &kp E         &kp R                         &trans       &trans       &trans         &trans   &trans    &to 0
+        &kp GRAVE   &kp LSHFT  &kp A     &kp S         &kp D         &kp F                         &trans       &trans       &trans         &trans   &trans    &trans
+        &kp LALT    &kp LCTRL  &kp Z     &kp X         &kp C         &kp V         &none           &trans       &trans       &trans         &trans   &trans    &to 6
+                               &none     &kp ESC      &kp SPACE      &mo 4                          &trans       &trans       &trans        &none
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
@@ -139,7 +139,7 @@
         &trans   &trans    &trans     &trans      &trans       &trans                     &trans     &trans      &trans      &trans     &trans     &none
         &trans   &kp N1    &kp N2     &kp N3      &kp N4       &kp N5                     &kp N6     &kp N7      &kp N8      &kp N9     &kp N0     &trans
         &trans   &trans    &trans     &trans      &trans       &trans         &none       &trans     &trans      &trans      &trans     &trans     &none
-                           &trans     &to 0      &trans       &trans                     &trans     &trans      &trans      &to 0
+                           &trans     &to 0       &trans       &trans                     &trans     &trans      &trans      &to 0
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
